@@ -1,0 +1,38 @@
+body{
+    background-color: #800020;
+}
+
+nav{
+    background-color: #D09306;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo{
+    color: #800020;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+#imglogin{
+    height: 100px;
+    width: 100px;
+}
+
+div{
+    display: flex;
+}
+
+a{
+    color: #800020;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D09306;
+    color: #800020;
+}
