@@ -2,6 +2,10 @@ body{
     background-color: #800020;
 }
 
+body div{
+    color: #D09306;
+}
+
 nav{
     background-color: #D09306;
     display: flex;
@@ -26,8 +30,23 @@ div{
     display: flex;
 }
 
-a{
+.tarjetarestaurante{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textorestaurantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headyfooter{
     color: #800020;
+}
+
+.aresenyalo{
+    color: #D09306;
 }
 
 footer{
@@ -35,4 +54,9 @@ footer{
     justify-content: space-between;
     background-color: #D09306;
     color: #800020;
+}
+
+.imgrestaurantes{
+    height: 200px;
+    width: 300px;
 }
