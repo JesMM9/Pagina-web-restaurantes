@@ -16,6 +16,9 @@ body{
 .contenedor h1{
     color: gold;
 }
+a{
+    text-decoration: none;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -38,7 +41,7 @@ input{
 input::placeholder{
     color:white;
 }
-button{
+input[type=submit]{
     background-color: #313131;
     color: white;
     border-style: solid;

@@ -16,6 +16,9 @@ body{
 .contenedor h1{
     color: gold;
 }
+a{
+    text-decoration: none;
+}
 form{
     display: flex;
     flex-direction: column;
