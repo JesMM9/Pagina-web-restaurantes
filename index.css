@@ -71,10 +71,12 @@ a{
     padding: 3px;
     border-radius: 5px;
 }
+
 table{
     border-color: #D09306;
     border-style: solid;
 }
+
 .copyright {
     display: flex;
     align-items: center;
