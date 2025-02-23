@@ -11,18 +11,18 @@
         <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php">
             <a href="index.html"><h1>GOURMET <br> CRUSAIDER</h1></a>
             <input required type="text" placeholder="Nombre de Usuario"><br>
-            <input type="text" placeholder="Nombre"><br>
-            <input type="text" placeholder="Apellidos"><br>
-            <input type="email" placeholder="Email"><br>
+            <input required type="text" placeholder="Nombre"><br>
+            <input required type="text" placeholder="Apellidos"><br>
+            <input required type="email" placeholder="Email"><br>
             <label for="date">Fecha de nacimiento</label>
-            <input type="date"><br>
+            <input required type="date"><br>
             <label for="sex">¿Cuál es su genero?</label>
             <div class="contenedor2">
-                <input type="radio" name="sex" value="Masculino">
+                <input required type="radio" name="sex" value="Masculino">
                 <label for="sex">Masculino</label>
-                <input type="radio" name="sex" value="Femenino">
+                <input required type="radio" name="sex" value="Femenino">
                 <label for="sex">Femenino</label>
-                <input type="radio" name="sex" value="Otros">
+                <input required type="radio" name="sex" value="Otros">
                 <label for="sex">Otros</label>
             </div><br>
             <label for="dieta">¿Que tipo de comida le dusta consumir?</label>
@@ -36,8 +36,8 @@
             </div><br>
             <label for="alergias">Indique si tiene alergias y cuales son:</label>
             <textarea name="" id=""></textarea><br>
-            <input type="password" placeholder="Contraseña"><br>
-            <input type="password" placeholder="Confirmar Contraseña"><br><br>
+            <input required type="password" placeholder="Contraseña"><br>
+            <input required type="password" placeholder="Confirmar Contraseña"><br><br>
             <input class="submit" type="submit">
         </form>
     </div>
