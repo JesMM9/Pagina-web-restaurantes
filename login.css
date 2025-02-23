@@ -1,0 +1,53 @@
+body{
+    background-image:url(./img/Potaje_de_habas_con_verduras.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 100%;
+}
+.contenedor{
+    background-color: #800020;
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 2%;
+    padding-bottom: 31.45%;
+}
+.contenedor h1{
+    color: gold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+form input{
+    width: 50%;
+}
+input{
+    background-color: #800020;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 3px;
+    padding: 10px 10px;
+    color: white;
+    font-size: x-small;
+}
+input::placeholder{
+    color:white;
+}
+button{
+    background-color: #313131;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: small;
+}
+p{
+    color: white;
+}
