@@ -42,7 +42,9 @@ nav {
 div{
     display: flex;
 }
-
+img{
+    margin-top: 2%;
+}
 .tarjetarestaurante{
     display: flex;
     justify-content: space-around;
@@ -54,10 +56,25 @@ div{
     justify-content: space-between;
 }
 
-a {
+a .headyfooter{
     color: #800020;
+    
 }
 
+a{
+    color: #D09306;
+    text-decoration: none;
+}
+a{
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px;
+    border-radius: 5px;
+}
+table{
+    border-color: #D09306;
+    border-style: solid;
+}
 .copyright {
     display: flex;
     align-items: center;
