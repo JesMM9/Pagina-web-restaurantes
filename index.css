@@ -1,29 +1,42 @@
-body{
+body {
     background-color: #800020;
-}
-
-body div{
     color: #D09306;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-nav{
+nav {
     background-color: #D09306;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-#titulo{
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+#titulo {
     color: #800020;
+    font-size: 24px;
 }
 
-#logo{
-    height: 100px;
-    width: 100px;
+.nav-right {
+    display: flex;
+    align-items: center;
 }
 
-#imglogin{
-    height: 100px;
-    width: 100px;
+#imglogin {
+    height: 50px;
+    margin-left: 10px;
 }
 
 div{
@@ -41,19 +54,31 @@ div{
     justify-content: space-between;
 }
 
-.headyfooter{
+a {
     color: #800020;
 }
 
-.aresenyalo{
-    color: #D09306;
-}
-
-footer{
+.copyright {
     display: flex;
-    justify-content: space-between;
-    background-color: #D09306;
+    align-items: center;
     color: #800020;
+    margin: 1%;
+}
+
+.headyfooter {
+    display: flex;
+    align-items: center;
+    color: #800020;
+}
+
+footer {
+    background-color: #D09306;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    padding: 10px 20px;
+    margin-top: 20px;
+
 }
 
 .imgrestaurantes{
