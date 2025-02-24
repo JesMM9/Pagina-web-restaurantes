@@ -39,6 +39,15 @@ nav {
     margin-left: 10px;
 }
 
+div.login{
+    display: flex;
+}
+
+img{
+    margin-top: 2%;
+}
+
+
 h1 {
     font-size: 40px;
     margin: 2%;
